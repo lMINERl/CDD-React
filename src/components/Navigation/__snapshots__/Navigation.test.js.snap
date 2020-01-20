@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navigation /> renders 1`] = `
+<div
+  className="navigation"
+>
+  <div
+    className="navigation navigation__logo navigation--dark"
+  >
+    <img
+      alt="logo"
+      src="logo.svg"
+    />
+  </div>
+  <div
+    className="navigation navigation__menu navigation--standard w-75"
+  >
+    <Search />
+    <div
+      className="mr-auto ml-auto"
+    >
+      <div
+        className="button button--orange button--rounded tooltip-informed"
+      >
+        <div
+          className="tooltip-informed__text tooltip-informed__text--bright"
+        >
+          Shopping crat
+        </div>
+        <div
+          className="button__notify"
+        >
+          235
+        </div>
+        <i
+          className="fa fa-shopping-bag"
+        />
+      </div>
+    </div>
+    <NavigationProfile />
+  </div>
+</div>
+`;

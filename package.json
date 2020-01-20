@@ -1,0 +1,72 @@
+{
+  "name": "cdd-react",
+  "version": "1.0.0",
+  "description": "a dynamic component able to list any kind of data excluded nested objects",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "font-awesome": "^4.7.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.3.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^3.7.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "cls && react-scripts test --verbose",
+    "eject": "react-scripts eject",
+    "eslint": "./node_modules/.bin/eslint .",
+    "node-sass": "node-sass sass/main.scss src/css/index.css -w",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-links": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/react": "^5.2.8",
+    "@types/jest": "^24.0.24",
+    "@types/react": "^16.9.16",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "enzyme-to-json": "^3.4.3",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.14.2",
+    "node-sass": "^4.13.0",
+    "prettier": "^1.18.2",
+    "prop-types": "^15.7.2",
+    "react-test-renderer": "^16.12.0"
+  },
+  "optionalDependencies": {
+    "create-react-component-folder": "^0.1.30"
+  },
+  "author": "Mohamed Medhat",
+  "license": "MIT"
+}

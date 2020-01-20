@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavigationProfile /> renders 1`] = `
+<div
+  className="profile profile--dark mr-5"
+>
+  <div
+    className="profile profile__img__container profile__img--dark"
+  >
+    <img
+      alt="logo"
+      className="profile__img"
+      src="logo.svg"
+    />
+  </div>
+  <div
+    className="profile__text"
+  >
+    Mohamed
+  </div>
+  <i
+    className="ml-auto mr-3 fa fa-angle-down"
+  />
+  <div
+    className="profile__dropdown profile__dropdown--dark"
+  >
+    <div
+      className="profile__dropdown__row profile__dropdown__row--dark"
+    >
+      <i
+        className="float-left ml-2 mr-2 fa fa-suitcase"
+      />
+      <NavLink
+        to="/"
+      >
+        Profile
+      </NavLink>
+    </div>
+    <div
+      className="profile__dropdown__row profile__dropdown__row--dark"
+    >
+      <i
+        className="float-left ml-2 mr-2 fa fa-cog"
+      />
+      <NavLink
+        to="/"
+      >
+         Settings
+      </NavLink>
+    </div>
+    <div
+      className="profile__dropdown__row profile__dropdown__row--dark"
+    >
+      <i
+        className="float-left ml-2 mr-2 fa fa-exclamation-circle"
+      />
+      <NavLink
+        to="/"
+      >
+        Logout
+      </NavLink>
+    </div>
+  </div>
+</div>
+`;

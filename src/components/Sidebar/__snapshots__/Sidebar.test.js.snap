@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sidebar /> renders 1`] = `
+<ul
+  className="sidebar navigation__logo"
+>
+  <li
+    className="sidebar__row"
+  >
+    <i
+      className="fa fa-dashboard"
+    />
+    <span
+      className="sidebar__text"
+    >
+      Dashboard
+    </span>
+    <i
+      className="sidebar__row--extend fa fa-angle-right"
+    />
+  </li>
+  <li
+    className="sidebar__row"
+  >
+    <i
+      className="fa fa-music"
+    />
+    <span
+      className="sidebar__text"
+    >
+      Mail
+    </span>
+    <i
+      className="sidebar__row--extend fa fa-angle-right"
+    />
+  </li>
+  <li
+    className="sidebar__row"
+  >
+    <i
+      className="fa fa-server"
+    />
+    <span
+      className="sidebar__text"
+    >
+      Database
+    </span>
+    <i
+      className="sidebar__row--extend fa fa-angle-right"
+    />
+  </li>
+  <li
+    className="sidebar__row"
+  >
+    <i
+      className="fa fa-bar-chart"
+    />
+    <span
+      className="sidebar__text"
+    >
+      Analysis
+    </span>
+    <i
+      className="sidebar__row--extend fa fa-angle-right"
+    />
+  </li>
+</ul>
+`;
